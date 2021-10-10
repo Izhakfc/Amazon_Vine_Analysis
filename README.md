@@ -9,10 +9,29 @@ Software: Google Colab, PostgreSQL 11.5, AWS.
 
 ## ETL process
 ### Extract
+Read the url form Amazon S3 drive and extract the data into a DataFrame.
+![Extract](./Resources/Extract.PNG) 
 
 ### Transform
+Transform the data in order to fit the desired columns:
+* Customers: 
+  * Customer id.
+  * Customer Count.
+* Products:
+  * Product id.
+  * Product title.
+* Reviews:
+  * Review id.
+  * Customer id.
+  * Producto id.
+  * Product parent.
+  * Review date.
+ 
+![Transform](./Resources/Transform.PNG) 
 
 ### Load
+Load the data to a RDS in Amazon Web Services.
+![Load](./Resources/Load.PNG) 
 
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 ### Vine Reviews
