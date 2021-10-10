@@ -35,8 +35,10 @@ Load the data to a RDS in Amazon Web Services.
 
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 ### Vine Reviews
+![Load](./Resources/Vine_reviews.PNG) 
 
 ### non-Vine Reviews
+![Load](./Resources/unpiad_Reviews.PNG) 
 
 ### Insights
 * There are **94** *paid reviews* (Vine reviews) and **40,471** *unpaid reviews.*
